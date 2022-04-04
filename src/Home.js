@@ -214,22 +214,27 @@ const Home = () => {
 
         }
 
-        const handleSaveAddTableRowClick= () => {
+      const handleSaveAddTableRowClick= () => {
 
-            //  Data adding using Browser Mode
-            const newArray = [...data, openModalData]
+         if(openModalData.orderNo) {
+        //  Data adding using Browser Mode
+                const newArray = [...data, openModalData]
 
-            setData(newArray)
+                setData(newArray)
 
-            // filtering and sorting by ID
-            const newArrayFilter = newArray.filter( data => data.id !== openModalData.id)
-            const newArray2 = [...newArrayFilter, openModalData]
+                // filtering and sorting by ID
+                const newArrayFilter = newArray.filter( data => data.id !== openModalData.id)
+                const newArray2 = [...newArrayFilter, openModalData]
 
-            // sorting from ID:smaller num to ID:larger num
-            const newArrayFromSmToLrId = newArray2.sort( (a,b) => a.id - b.id)
-            setData(newArrayFromSmToLrId)
-            setIsShowModal(false)
+                // sorting from ID:smaller num to ID:larger num
+                const newArrayFromSmToLrId = newArray2.sort( (a,b) => a.id - b.id)
+
+                setData(newArrayFromSmToLrId)
+                setIsShowModal(false)
+          } else {
+           alert("Enter the order number.")
         }
+      }
 
     // close button
      function handleCloseModalClick() {

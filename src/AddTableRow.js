@@ -43,7 +43,7 @@ const AddTableRow = (props) => {
         const newAllTheData = [newData, ...data]
 
         // browser mode, without JSON POST method
-        if (addFormData.orderNo != null) {
+        if (addFormData.orderNo != "") {
             setData(newAllTheData)
             handleCloseAddTableRowClick()
         } else {
