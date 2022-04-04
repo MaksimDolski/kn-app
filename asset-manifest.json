@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kn-app/static/css/main.4558455f.css",
-    "main.js": "/kn-app/static/js/main.eb33b5ca.js",
-    "static/js/787.4b082c93.chunk.js": "/kn-app/static/js/787.4b082c93.chunk.js",
-    "index.html": "/kn-app/index.html",
-    "main.4558455f.css.map": "/kn-app/static/css/main.4558455f.css.map",
-    "main.eb33b5ca.js.map": "/kn-app/static/js/main.eb33b5ca.js.map",
-    "787.4b082c93.chunk.js.map": "/kn-app/static/js/787.4b082c93.chunk.js.map"
+    "main.css": "/MaksimDolski/kn-app.git/static/css/main.4558455f.css",
+    "main.js": "/MaksimDolski/kn-app.git/static/js/main.61498f91.js",
+    "static/js/787.7efd31bd.chunk.js": "/MaksimDolski/kn-app.git/static/js/787.7efd31bd.chunk.js",
+    "index.html": "/MaksimDolski/kn-app.git/index.html",
+    "main.4558455f.css.map": "/MaksimDolski/kn-app.git/static/css/main.4558455f.css.map",
+    "main.61498f91.js.map": "/MaksimDolski/kn-app.git/static/js/main.61498f91.js.map",
+    "787.7efd31bd.chunk.js.map": "/MaksimDolski/kn-app.git/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4558455f.css",
-    "static/js/main.eb33b5ca.js"
+    "static/js/main.61498f91.js"
   ]
 }
