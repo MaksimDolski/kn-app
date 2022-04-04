@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kn-app/static/css/main.4558455f.css",
-    "main.js": "/kn-app/static/js/main.815c58da.js",
+    "main.js": "/kn-app/static/js/main.3a2394cf.js",
     "static/js/787.7efd31bd.chunk.js": "/kn-app/static/js/787.7efd31bd.chunk.js",
     "index.html": "/kn-app/index.html",
     "main.4558455f.css.map": "/kn-app/static/css/main.4558455f.css.map",
-    "main.815c58da.js.map": "/kn-app/static/js/main.815c58da.js.map",
+    "main.3a2394cf.js.map": "/kn-app/static/js/main.3a2394cf.js.map",
     "787.7efd31bd.chunk.js.map": "/kn-app/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4558455f.css",
-    "static/js/main.815c58da.js"
+    "static/js/main.3a2394cf.js"
   ]
 }
