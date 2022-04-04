@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/maksimdolski/kn-app.git/static/css/main.4558455f.css",
-    "main.js": "/maksimdolski/kn-app.git/static/js/main.e92baebe.js",
-    "static/js/787.7efd31bd.chunk.js": "/maksimdolski/kn-app.git/static/js/787.7efd31bd.chunk.js",
-    "index.html": "/maksimdolski/kn-app.git/index.html",
-    "main.4558455f.css.map": "/maksimdolski/kn-app.git/static/css/main.4558455f.css.map",
-    "main.e92baebe.js.map": "/maksimdolski/kn-app.git/static/js/main.e92baebe.js.map",
-    "787.7efd31bd.chunk.js.map": "/maksimdolski/kn-app.git/static/js/787.7efd31bd.chunk.js.map"
+    "main.css": "/kn-app/static/css/main.4558455f.css",
+    "main.js": "/kn-app/static/js/main.815c58da.js",
+    "static/js/787.7efd31bd.chunk.js": "/kn-app/static/js/787.7efd31bd.chunk.js",
+    "index.html": "/kn-app/index.html",
+    "main.4558455f.css.map": "/kn-app/static/css/main.4558455f.css.map",
+    "main.815c58da.js.map": "/kn-app/static/js/main.815c58da.js.map",
+    "787.7efd31bd.chunk.js.map": "/kn-app/static/js/787.7efd31bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4558455f.css",
-    "static/js/main.e92baebe.js"
+    "static/js/main.815c58da.js"
   ]
 }
