@@ -23,8 +23,10 @@ const ThemeMode = () => {
         const btn = document.getElementById("theme-btn")
         btn.innerHTML = 'Light mode'
         btn.style.color = "#FFD76D"
-        btn.style.border = "1px solid #FFD76D"
-        btn.style.transition = "3s"
+        btn.style.boxShadow = "#FFD76D 0px 5px 10px"
+        btn.style.transition = "1.5s"
+
+
 
       style.textContent = `
         .main, body { 
@@ -58,8 +60,8 @@ const ThemeMode = () => {
 
       btn.innerHTML = 'Dark mode'
       btn.style.color = "white"
-      btn.style.border = "none"
       btn.style.transition = "none"
+      btn.style.boxShadow = "none"
      
 
       style.textContent =  `
