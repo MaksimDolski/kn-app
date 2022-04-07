@@ -23,8 +23,8 @@ const ThemeMode = () => {
         const btn = document.getElementById("theme-btn")
         btn.innerHTML = 'Light mode'
         btn.style.color = "#FFD76D"
-        btn.style.boxShadow = "#FFD76D 0px 5px 10px"
-        btn.style.transition = "1.5s"
+        btn.style.boxShadow = "#FFD76D 3px 1px 30px"
+        // btn.style.transition = "0.1s"
 
 
 
