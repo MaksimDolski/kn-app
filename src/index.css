@@ -9,9 +9,9 @@
 
 /* <Header /> */
 .main {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
-    padding: 20px;
+    margin-top: 20px;
     color: #525F7F;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
@@ -22,16 +22,11 @@ table {
     border-collapse: collapse;
 }
 
-
 .main-table-header {
+    background-color: #F6F9FC;
     text-transform: uppercase;
     font-weight: 400;
     color: #8898AA;
-    background-color: #F6F9FC;
-}
-
-.main-table-header button {
-   padding: 10px 25px;
 }
 
 
@@ -50,34 +45,7 @@ table {
 .main-table-header td {
     padding-left: 20px;
     padding-right: 20px;
-}
-
-/* buttons */
-.btn-open {
-    background: url(./open.png);
-    margin-right: 10px;
-}
-
-.btn-delete {
-    background: url(./delete.png);
-
-}
-
-.main-data-btn {
-    border-bottom: 1px solid #EDEFF2;
-    text-align: center;
-        
-
-}
-
-.btn-open, .btn-delete {
-    border: none;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    height: 50px;
-    width: 50px;
+   
 }
 
 
@@ -120,41 +88,6 @@ input {
     color: #8898AA;
     padding: 10px;
     font-size: 15px;
-}
-
-.btn-shipment {
-    margin-top: 35px;
-    margin-right: 10px;
-    width: 75px;
-    height: 35px;
-    border: none;
-    border-radius: 5px;
-    background-color: #637298;
-    color: white;
-    cursor: pointer;
-}
-
-
-
-.btn-shipment:hover {
-    border: 1px solid #637298;
-    background-color: white;
-    color: #525F7F;
-    transition: 200ms;
-}
-
-.main-table-header button {
-        border: none;
-        border-radius: 5px;
-        background-color: #637298;
-        color: white;
-        cursor: pointer;
-}
-
-.main-table-header button:hover {
-    background-color: #5b698b;
-    transition: 200ms;
-
 }
 
 
@@ -226,6 +159,7 @@ input {
     fill: #525F7F;
     margin-left: 1px;
     margin-right: 1px;
+   
 }
 
 .with-love p:hover .bi-heart {
@@ -241,4 +175,76 @@ input {
     font-family: 'Lato',
     sans-serif;
 }
+
+
+/* Buttons */
+.btn-shipment {
+    margin-top: 35px;
+    margin-right: 10px;
+    width: 75px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #637298;
+    color: white;
+    cursor: pointer;
+}
+
+
+.btn-shipment:hover {
+    border: 1px solid #637298;
+    background-color: white;
+    color: #525F7F;
+    transition: 200ms;
+}
+
+
+.main-table-header button,
+.theme-btn {
+        padding: 10px 25px;
+        border: none;
+        border-radius: 5px;
+        background-color: #637298;
+        color: white;
+        cursor: pointer;
+        
+}
+
+.main-table-header button:hover {
+    background-color: #5b698b;
+    transition: 200ms;
+
+}
+
+.btn-open {
+    background: url(./open.png);
+    margin-right: 10px;
+}
+
+.btn-delete {
+    background: url(./delete.png);
+}
+
+.main-data-btn {
+    border-bottom: 1px solid #EDEFF2;
+    text-align: center;
+}
+
+.btn-open, .btn-delete {
+    border: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+}
+
+/* Theme button */
+.theme-btn {
+    margin-top: 10px;
+    display: block;
+}
+
+
 

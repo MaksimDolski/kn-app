@@ -1,4 +1,5 @@
 import TableData from "./TableData"
+import ThemeMode from "./ThemeMode"
 
 const Table = (props) => {
 
@@ -8,14 +9,16 @@ const Table = (props) => {
         handleDeleteTableRowClick,
         handleOpenAddTableRowClick,
 
+
     } = props
 
     return ( 
         <>
+         
             <div className="main">
                 <table className="main-table">
                     <thead>
-                        <tr className="main-table-header ">
+                        <tr className="main-table-header">
                             {/* <td>id</td> */}
                             <td>order no</td>
                             <td>delivery date</td>
@@ -23,8 +26,10 @@ const Table = (props) => {
                             <td>tracking no</td>
                             <td>status</td>
                             <td>consignee</td>
-                            <td><button onClick={ handleOpenAddTableRowClick }>Add Tracking</button></td>
+                            <td><button onClick={ handleOpenAddTableRowClick }>Add Tracking</button> 
+                            <ThemeMode /></td>
                         </tr>
+
                     </thead>
                         <tbody>
                             <TableData
@@ -35,6 +40,7 @@ const Table = (props) => {
                         </tbody>
                 </table>
             </div>
+        
         </>
     )
 }

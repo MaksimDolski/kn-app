@@ -1,6 +1,6 @@
 const TableData = (props) => {
 
-    const { data, handleOpenModalClick, handleDeleteTableRowClick } = props
+    const { data, handleOpenModalClick, handleDeleteTableRowClick} = props
 
     
     return (

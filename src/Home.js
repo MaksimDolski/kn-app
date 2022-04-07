@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Table from "./Table"
 import Modal from "./Modal"
 import AddTableRow from "./AddTableRow"
@@ -214,7 +214,7 @@ const Home = () => {
 
         }
 
-      const handleSaveAddTableRowClick= () => {
+        const handleSaveAddTableRowClick= () => {
 
          if(openModalData.orderNo) {
         //  Data adding using Browser Mode
@@ -270,15 +270,25 @@ const Home = () => {
         }
     }
 
+    // useEffect( () => {
+    //   if(theme.dark) {
+    //     document.body.classList.add('themeMode')
+    //   } else {
+    //     document.body.classList.remove('themeMode')
+    //   }
+
+    // },[theme])
+
+    
 
     return (
         <>
-  
             <Table
             data={ data }
             handleOpenModalClick={ handleOpenModalClick }
             handleDeleteTableRowClick={ handleDeleteTableRowClick }  
-            handleOpenAddTableRowClick={ handleOpenAddTableRowClick}        
+            handleOpenAddTableRowClick={ handleOpenAddTableRowClick}
+             
             />
 
             { isShowAddTableRow &&
@@ -297,6 +307,7 @@ const Home = () => {
             handleModalChangeClick={handleModalChangeClick}
             handleSaveAddTableRowClick={handleSaveAddTableRowClick}
             /> }
+
         </>
     )
 }

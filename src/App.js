@@ -1,14 +1,16 @@
 import Home from "./Home"
+import ThemeMode from "./ThemeMode"
+import Footer from "./Footer"
 
 function App() {
-  
+
   return (
     <>
       <div className="App">
         <Home /> 
+        <Footer />
       </div>
-   
-     </>
+    </>
   )
   
 }

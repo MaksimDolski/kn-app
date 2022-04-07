@@ -12,7 +12,7 @@ const AddTableRow = (props) => {
         customer: "",
         trackingNo: "",
         consignee: "",
-        status: "",
+        status: "", 
     })
 
     // input onChange
